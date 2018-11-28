@@ -33,11 +33,11 @@
         }
         
         $scope.isSelected = function (qIndex, aIndex) {
-            return $scope.myQuestion[qIndex].selectedAnswer === aIndex
+            return $scope.myQuestions[qIndex].selectedAnswer === aIndex
         }
         
         $scope.isCorrect = function (qIndex, aIndex) {
-            return $scope.myQuestion[qIndex].correctAnswer === aIndex
+            return $scope.myQuestions[qIndex].correctAnswer === aIndex
         }
     }]);
 })();
